@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 30px;
+}
+
+main {
+    margin: auto;
+    width: 400px;
+    height: 600px;
+    background-color: #022501;
+    border-radius: 20px;
+    border: outset 10px #022101;
+    display: flex;
+    flex-direction: column;
+}
+
+.calcTitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #606060;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.calcDisplay {
+    background-color: #628368;
+    width: 300px;
+    height: 50px;
+    align-self: center;
+    font-size: 3em;
+    text-align: right;
+    padding: 2px;
+    border: 5px inset #4a644f;
+    margin-bottom: 40px;
+    cursor: text;
+    color: #000000;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.calcInput {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: outset 3px;
+    font-size: large;
+}
+
+.calcInput:hover {
+    background-color: #dbd8d8;
+}
+
+.calcInput:active {
+    border: inset 3px;
+}
+
+.calcInputCommands {
+    background-color: #efa453;
+}
+
+.calcInputCommands:hover {
+    background-color: #d4914a;
+}
+
+.calcInputEqual {
+    background-color: #5387ef;
+}
+
+.calcInputEqual:hover {
+    background-color: #436dc0;
+}
+
+.calcClean {
+    width: 100px;
+    height: 30px;
+}
